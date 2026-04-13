@@ -27,6 +27,7 @@ export const silentCards: Card[] = [
   { id: 'sl_cloak_and_dagger', name: 'Cloak and Dagger', character: 'silent', cost: 1, type: 'Skill', rarity: 'Common', description: 'Gain 6 Block. Add 1 Shiv into your Hand.', keywords: ['shiv'] },
   { id: 'sl_dagger_spray', name: 'Dagger Spray', character: 'silent', cost: 1, type: 'Attack', rarity: 'Common', description: 'Deal 4 damage to ALL enemies twice.' },
   { id: 'sl_dagger_throw', name: 'Dagger Throw', character: 'silent', cost: 1, type: 'Attack', rarity: 'Common', description: 'Deal 9 damage. Draw 1 card. Discard 1 card.' },
+  { id: 'sl_leading_strike', name: 'Leading Strike', character: 'silent', cost: 1, type: 'Attack', rarity: 'Common', description: 'Deal 7 damage. Add 1 Shiv into your Hand.', keywords: ['shiv'] },
   { id: 'sl_deadly_poison', name: 'Deadly Poison', character: 'silent', cost: 1, type: 'Skill', rarity: 'Common', description: 'Apply 5 Poison.', keywords: ['poison'] },
   { id: 'sl_deflect', name: 'Deflect', character: 'silent', cost: 0, type: 'Skill', rarity: 'Common', description: 'Gain 4 Block.' },
   { id: 'sl_dodge_and_roll', name: 'Dodge and Roll', character: 'silent', cost: 1, type: 'Skill', rarity: 'Common', description: 'Gain 4 Block. Next turn gain 4 Block.' },
