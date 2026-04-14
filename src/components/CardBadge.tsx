@@ -25,6 +25,7 @@ const rarityColors: Record<CardRarity, string> = {
   Common: 'bg-gray-500/60 text-gray-200',
   Uncommon: 'bg-blue-700/60 text-blue-200',
   Rare: 'bg-amber-600/60 text-amber-200',
+  Ancient: 'bg-rose-800/60 text-rose-200',
 }
 
 export function TypeBadge({ type }: TypeBadgeProps) {

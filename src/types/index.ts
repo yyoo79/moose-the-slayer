@@ -1,7 +1,7 @@
 export type CharacterId = 'ironclad' | 'silent' | 'regent' | 'necrobinder' | 'defect'
 
 export type CardType = 'Attack' | 'Skill' | 'Power' | 'Status' | 'Curse'
-export type CardRarity = 'Basic' | 'Common' | 'Uncommon' | 'Rare'
+export type CardRarity = 'Basic' | 'Common' | 'Uncommon' | 'Rare' | 'Ancient'
 
 export interface Card {
   id: string
