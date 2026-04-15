@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { Card } from '../types'
 import { TypeBadge, RarityBadge, CostBadge } from './CardBadge'
+import { getCardImageUrl } from '../utils/cardImages'
 
 interface Props {
   cards: Card[]
@@ -57,6 +58,14 @@ export function CardList({ cards, onRemove }: Props) {
           onClick={() => setExpanded(expanded === card.id ? null : card.id)}
         >
           <div className="flex items-center gap-2 px-3 py-2">
+            {getCardImageUrl(card) && (
+              <img
+                src={getCardImageUrl(card)!}
+                alt={card.name}
+                className="w-8 h-8 rounded object-cover shrink-0 opacity-90"
+                onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
+              />
+            )}
             <CostBadge cost={card.cost} />
             <div className="flex-1 min-w-0 flex items-center gap-2 flex-wrap">
               <span className="text-sm text-amber-100 font-medium">{card.name}</span>

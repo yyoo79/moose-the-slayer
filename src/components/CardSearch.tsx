@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import type { Card, CharacterId } from '../types'
 import { searchCards } from '../data/cards'
 import { TypeBadge, RarityBadge, CostBadge } from './CardBadge'
+import { getCardImageUrl } from '../utils/cardImages'
 
 interface Props {
   character: CharacterId
@@ -101,6 +102,14 @@ export function CardSearch({ character, onAdd }: Props) {
                   ${i < results.length - 1 ? 'border-b border-amber-900/30' : ''}
                 `}
               >
+                {getCardImageUrl(card) && (
+                  <img
+                    src={getCardImageUrl(card)!}
+                    alt={card.name}
+                    className="w-8 h-8 rounded object-cover shrink-0 opacity-90"
+                    onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
+                  />
+                )}
                 <CostBadge cost={card.cost} />
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 flex-wrap">
