@@ -29,6 +29,7 @@ export const relics: Relic[] = [
   { id: 'vajra', name: 'Vajra', character: 'shared', rarity: 'Common', description: 'Start each combat with 1 Strength.' },
   { id: 'whetstone', name: 'Whetstone', character: 'shared', rarity: 'Common', description: 'Upon pickup, Upgrade 2 random Attacks.' },
   { id: 'war_paint', name: 'War Paint', character: 'shared', rarity: 'Common', description: 'Upon pickup, Upgrade 2 random Skills.' },
+  { id: 'juzu_bracelet', name: 'Juzu Bracelet', character: 'shared', rarity: 'Common', description: 'Regular enemy combats are no longer encountered in ? rooms.' },
 
   // Character-specific - Common
   { id: 'red_skull', name: 'Red Skull', character: 'ironclad', rarity: 'Common', description: 'While your HP is at or below 50%, you have 3 additional Strength.' },

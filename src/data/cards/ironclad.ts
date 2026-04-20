@@ -97,4 +97,5 @@ export const ironcladCards: Card[] = [
   { id: 'ic_colossus', name: 'Colossus', character: 'ironclad', cost: 1, type: 'Skill', rarity: 'Rare', description: 'Gain 5 Block. Take 50% less damage from Vulnerable this turn.' },
   { id: 'ic_conflagration', name: 'Conflagration', character: 'ironclad', cost: 2, type: 'Attack', rarity: 'Rare', description: 'Deal 8 damage to ALL enemies plus 2 for each other Attack played this turn.' },
   { id: 'ic_crimson_mantle', name: 'Crimson Mantle', character: 'ironclad', cost: 1, type: 'Power', rarity: 'Rare', description: 'At the start of your turn, lose 1 HP and gain 8 Block.' },
+  { id: 'ic_not_yet', name: 'Not Yet', character: 'ironclad', cost: 2, type: 'Skill', rarity: 'Rare', description: 'Heal 10 HP. Exhaust.' },
 ]
