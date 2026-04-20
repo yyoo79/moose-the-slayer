@@ -36,4 +36,6 @@ export const colorlessCards: Card[] = [
   { id: 'cl_violence', name: 'Violence', character: 'colorless', cost: 0, type: 'Skill', rarity: 'Uncommon', description: 'Put 3 random Attacks from your Draw Pile into your Hand. Exhaust.' },
   { id: 'cl_bolas', name: 'Bolas', character: 'colorless', cost: 0, type: 'Attack', rarity: 'Uncommon', description: 'Deal 3 damage. At the start of your turn, return to your Hand.' },
   { id: 'cl_automation', name: 'Automation', character: 'colorless', cost: 1, type: 'Power', rarity: 'Uncommon', description: 'Every 10 cards drawn, gain 1 Energy.' },
+  { id: 'cl_production', name: 'Production', character: 'colorless', cost: 0, type: 'Skill', rarity: 'Uncommon', description: 'Gain 2 Energy. Exhaust.' },
+  { id: 'cl_salvo', name: 'Salvo', character: 'colorless', cost: 1, type: 'Attack', rarity: 'Rare', description: 'Deal 12 damage. Retain your Hand this turn.' },
 ]
